@@ -1,0 +1,60 @@
+.parrent {
+  width: 1280px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-color: #fee36d;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+  padding: 10px;
+  color: #000000;
+  font-weight: 700;
+}
+.box:hover {
+  background-color: #000661;
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.08);
+}
+
+.spcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 82px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.container_btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
