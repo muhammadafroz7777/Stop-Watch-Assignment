@@ -39,9 +39,9 @@ function Reset() {
   clearInterval(watchinterval);
   startBtn.disabled = false;
   
-  var minutes = 0;
-  var seconds = 0;
-  var milliseconds = 0;
+   minutes = 0;
+   seconds = 0;
+   milliseconds = 0;
 
   $minutes.innerText = 0;
   $seconds.innerText = 0;
